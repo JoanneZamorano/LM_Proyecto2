@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE library SYSTEM "library.dtd">-->
+
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+    <book>
+        <title>Harry Potter y el caliz del fuego</title>
+        <author>JKRowling</author>
+        <year>2000</year>
+        <publisher>Salamandra</publisher>
+        <pages>640</pages>
+    </book>
+    <book>
+        <title>El nombre del viento</title>
+        <author>Patrick Rothfuss</author>
+        <year>2007</year>
+        <publisher>Planeta</publisher>
+        <pages>352</pages>
+    </book>
+</library>
