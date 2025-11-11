@@ -1,0 +1,4 @@
+Dado el siguiente documento XML (sin DTD ni XSD),derive:
+    • Un DTD que valide su estructura y restricciones básicas.
+    • Un XSD que refine las validaciones (patrones de ISBN/ISSN, email, enumeraciones, etc.). 
+(4pts)
