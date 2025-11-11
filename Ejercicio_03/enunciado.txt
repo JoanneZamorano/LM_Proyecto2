@@ -1,0 +1,2 @@
+Dado el siguiente XSD, realiza un XML y un DTD.
+(2pts)

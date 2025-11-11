@@ -1,0 +1,3 @@
+Dado el siguiente DTD:
+Crea un documento XML y XSD que sea valido con la estructura proporcionada.
+(4 pts)
