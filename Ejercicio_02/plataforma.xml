@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plataforma SYSTEM "plataforma.dtd">
+<!--<!DOCTYPE plataforma SYSTEM "plataforma.dtd">-->
 
-<plataforma fecha_publicacion="2025-11-11">
+<plataforma fecha_publicacion="2025-11-11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="plataforma.xsd"> 
     <cursos>
         <curso id="six25" codigo="feb25">
             <titulo>Sistemas informáticos y redes</titulo>
@@ -9,7 +9,7 @@
             <modalidad>online</modalidad>
             <horas>2000</horas>
             <modulos>
-                <modulo clave="AAW">
+                <modulo>
                     <nombre>Aplicaciones Web</nombre>
                     <horas>150</horas>
                 </modulo>
@@ -19,17 +19,11 @@
                 </modulo>
             </modulos>
         </curso>
-        <curso id="dam25" codigo="feb25">
+        <curso id="dam25">
             <titulo>Desarrollo aplicaciones multiplataforma</titulo>
             <nivel>superior</nivel>
             <modalidad>online</modalidad>
             <horas>2000</horas>
-            <modulos>
-                <modulo clave="LM">
-                    <nombre>Lenguaje de Marcas</nombre>
-                    <horas>300</horas>
-                </modulo>
-            </modulos>
         </curso>
     </cursos>
     <alumnos>
@@ -38,16 +32,15 @@
             <email>joanne@mail.com</email>
             <telefono>666555444</telefono>
         </alumno>
-        <alumno id="alum2" nif="222333444B">
-            <nombre>Pepe</nombre>
+        <alumno id="alum2">
+            <nombre>Pepe Perez</nombre>
             <email>pepe@mail.com</email>
-            <telefono></telefono>
         </alumno>        
     </alumnos>
     <matriculas>
         <matricula id="matr01" alumnoRef="alum1" cursoRef="dam25">
             <fecha_alta>2025-02-10</fecha_alta>
-            <estado>en curso</estado>
+            <estado>finalizado</estado>
         </matricula>
         <matricula id="matr02" alumnoRef="alum2" cursoRef="six25">
             <fecha_alta>2025-02-10</fecha_alta>
@@ -56,12 +49,12 @@
     </matriculas>
     <evaluaciones>
         <evaluacion id="eva01" matriculaRef="matr01">
-            <instrumento></instrumento>
+            <instrumento>Evalucion continua</instrumento>
             <convocatoria>ordinaria</convocatoria>
-            <nota>10</nota>
+            <nota>10.0</nota>
         </evaluacion>
         <evaluacion id="eva02" matriculaRef="matr02">
-            <instrumento></instrumento>
+            <instrumento>Evalucion continua</instrumento>
             <convocatoria>ordinaria</convocatoria>
             <nota>6.8</nota>
         </evaluacion>
